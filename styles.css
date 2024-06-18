@@ -1,0 +1,87 @@
+body, p, ul, li, a {
+    list-style: none;
+    text-decoration: wavy;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: inherit;
+    background-attachment: #8ddd86;
+    color: #333;
+}
+
+header, h1, h2, footer {
+    background-color: #5d12c0;
+    color: rgb(31, 221, 14);
+    text-align: center;
+    padding: 1em;
+}
+   
+header .title {
+    color: #8ddd86;
+    font-size: 1.0em;
+    font-weight: bold;
+} 
+nav ul {
+    color: blue;
+    background-color: aquamarine;
+    text-align: right;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    font-size: 1.0em;
+    font-weight: bold;
+}
+
+nav ul li {
+    display: flex;
+    margin-right: 10px;
+    color: rgb(149, 19, 175);
+    transition: color 0.3s;
+    font-size: 1em;
+}
+
+nav ul li {
+    color: aliceblue;
+    margin: 0 15px;
+    text-decoration: wavy;
+    color: #11c53e;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 1em;
+}
+
+h1, h2 {
+    color: #18e4e4;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: auto;
+}
+
+form label {
+    margin-top: 10px;
+}
+
+form input, form textarea {
+    padding: 10px;
+    margin-top: 5px;
+}
+
+form button {
+    padding: 10px 0;
+    margin-top: 10px;
+    background-color: #1bdf8d;
+    color: rgba(62, 79, 233, 0.37);
+    border: none;
+    cursor: pointer;
+    position: fixed;
+    text-align: center;
+}
